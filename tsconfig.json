@@ -6,12 +6,19 @@
       "@/*": [
         "./*"
       ]
-    }
+    },
+    "jsx": "react-native",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "noEmit": true,
+    "types": ["react-native-svg"]
   },
   "include": [
     "**/*.ts",
     "**/*.tsx",
     ".expo/types/**/*.ts",
-    "expo-env.d.ts"
+    "expo-env.d.ts",
+    "declarations.d.ts"
   ]
 }
