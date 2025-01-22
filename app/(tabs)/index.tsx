@@ -12,7 +12,7 @@ import DateTimePickerInput from "@/components/ui/DateTimePickerInput";
 import GameCardSecond from "@/components/ui/GameCardSecond";
 export default function HomeScreen() {
   return (
-    <ScrollView style={{ backgroundColor: "#FCFAFA" }}>
+    <ScrollView style={{ backgroundColor: "#FCFAFA",flex:1 }}>
       <View style={styles.headerBox}>
         <FilterIcon />
         <DateTimePickerInput />

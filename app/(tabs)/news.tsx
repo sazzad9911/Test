@@ -7,7 +7,7 @@ import { ScrollView, View } from "react-native";
 
 function News() {
   return (
-    <ScrollView style={{ backgroundColor: "#FCFAFA" }}>
+    <ScrollView style={{ backgroundColor: "#FCFAFA" ,flex:1}}>
       <View style={{ gap: 15, paddingHorizontal: 20 }}>
         <View />
         <ImageCard />

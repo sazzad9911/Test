@@ -32,7 +32,7 @@ const DateTimePickerInput = () => {
       {/* Date Time Picker Modal */}
       <DateTimePickerModal
         isVisible={isPickerVisible}
-        mode="datetime" // You can change to "date" or "time"
+        mode='datetime' // You can change to "date" or "time"
         onConfirm={handleConfirm}
         onCancel={hidePicker}
       />
