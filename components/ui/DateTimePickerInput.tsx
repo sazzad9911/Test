@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { View, StyleSheet, TouchableOpacity, Text } from "react-native";
-import DateTimePickerModal from "react-native-modal-datetime-picker";
+// import DateTimePickerModal from "react-native-modal-datetime-picker";
 import { MaterialIcons } from "@expo/vector-icons"; // For the dropdown arrow
 import moment from "moment";
 import Arrow from "../../assets/icons/arrow.svg"
@@ -30,12 +30,12 @@ const DateTimePickerInput = () => {
       </TouchableOpacity>
 
       {/* Date Time Picker Modal */}
-      <DateTimePickerModal
+      {/* <DateTimePickerModal
         isVisible={isPickerVisible}
         mode='datetime' // You can change to "date" or "time"
         onConfirm={handleConfirm}
         onCancel={hidePicker}
-      />
+      /> */}
     </View>
   );
 };
